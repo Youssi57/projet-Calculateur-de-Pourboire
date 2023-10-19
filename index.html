@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="global.css">
+    <title>Calculateur de Pourboire</title>
+</head>
+<body>
+    <h1>Calculateur de Pourboire</h1>
+
+    <div class="container">
+        <label for="montantTotal">Montant total de la note :</label>
+        <input type="number" id="montantTotal" placeholder="montant total de la note" />
+
+        <label for="pourcentagePourboire">Pourcentage de pourboire :</label>
+        <select id="pourcentagePourboire">
+            <option value="10">10%</option>
+            <option value="15">15%</option>
+            <option value="20">20%</option>
+            <option value="25">25%</option>
+        </select>
+
+        <button id="boutonCalcul">Calculer le pourboire</button>
+
+        <div id="resultat"></div>
+    </div>
+
+    <script src="calculateur.js"></script>
+</body>
+</html>
